@@ -1,5 +1,13 @@
-function App(){
+import Greeting from './Greeting'
+import Header from './Header';
+function App() {
   return (
-    <h1>Hello</h1>
+    <div>
+      <h1>Hello from ReactJS</h1>
+      <Greeting name={'Akash'}/>
+      <Header/>
+    </div>
   );
-}export default App;
+}
+
+export default App;
